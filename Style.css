@@ -60,12 +60,12 @@ ul li{
         padding: 1rem;
     }
 
-    /* .ofertas{
+    .ofertas{
         display: grid;
         grid-template-areas:
         "titulo1, imagen1"
         "imagen2, imagen3"; 
-    }*/ 
+    } 
 
 }
 
@@ -94,6 +94,8 @@ article div{
     border-radius: 10%;
     width: 250px;
     margin: 7mm;
+    cursor: pointer;
+    transform: scale(1.3);
 
 }
 
