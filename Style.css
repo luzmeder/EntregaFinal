@@ -15,7 +15,7 @@
     padding: .5rem;
 }
 
-.menu {
+.menu{
     display: flex;
     align-items: center;
 }
@@ -123,10 +123,6 @@ ul li{
         font-size: 1.3rem;
     }
 
-/* figure div{
-    text-align: center;
-    justify-content: center;
-} */
 
 .imagen{
     border-top-left-radius: 10%;
@@ -157,6 +153,11 @@ ul li{
     border: 2px solid black;
     padding: 1rem;
 
+}
+
+.formulario{
+    padding: 20px;
+    margin: 20px;
 }
 
 footer{
