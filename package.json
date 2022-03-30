@@ -1,0 +1,17 @@
+{
+  "name": "github2",
+  "version": "1.0.0",
+  "description": "- 💻📱 Actualmente estoy en la carrera de Full-Stack Developer en CODERHOUSE\r - 🌱 Soy Lic. en Turismo y viajes 🤓\r - 👯 Busco colaborar en proyectos de desarrollo, Front y Back...\r - 📸 [Instagram](https://www.instagram.com/luzmeder/) \r - 💼 [Linkedin](https://www.linkedin.com/in/luz-marina-meder-rio-50995449/)\r - 😄 Pronombres: Me dicen luzmi, luzi\r - ⚡ Dato curioso: ☠",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

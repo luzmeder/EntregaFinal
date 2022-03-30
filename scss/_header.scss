@@ -1,0 +1,40 @@
+header{
+    background-image: linear-gradient(black, grey);
+ 
+
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+        padding: .5rem;
+
+        .logo{
+            width: 35px;
+            height: 35px;
+        }
+        .menu{
+            display: flex;
+            align-items: center;
+            
+            ul li{
+                list-style-type: none;
+ 
+            }    
+            
+            .menu-item a{
+                color: white;
+                font-weight: bold;
+                text-decoration: none;
+                padding: 8px 12px;
+                margin: 0 15px;   
+            }                           
+
+        
+            .menu-bar { 
+                display: flex;
+                align-items: center;
+            }    
+        }
+
+    }
+
+}
