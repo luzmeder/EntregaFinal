@@ -1,0 +1,27 @@
+.main-container{
+    height: 450px;
+    background-image: url(../assets/tailandiat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .form-buscador{
+        border-radius: 20px;
+        
+        .buscador{
+            padding:10px;
+            border-radius:20px;
+        }
+
+        .boton{
+            padding:10px;
+            border-radius: 10px;
+
+        }
+    }
+}
+
+

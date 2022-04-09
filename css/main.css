@@ -1,3 +1,41 @@
+footer {
+  background-image: linear-gradient(grey, #0a0a0a);
+  color: antiquewhite;
+  padding: .5rem; }
+  footer .ubicacion {
+    margin: 2px;
+    display: flex;
+    justify-content: start; }
+    footer .ubicacion .localidades {
+      margin: 20px; }
+    footer .ubicacion .redes {
+      display: flex;
+      justify-content: center;
+      padding: 0; }
+      footer .ubicacion .redes .redes__iconos {
+        display: flex;
+        list-style: none; }
+        footer .ubicacion .redes .redes__iconos .redes__iconos--xp {
+          display: flex;
+          list-style: none;
+          padding: 5px 15px;
+          background-color: grey;
+          font-size: 18px;
+          border-top-left-radius: 10%;
+          border-top-right-radius: 10%;
+          cursor: pointer;
+          object-fit: cover;
+          border-bottom-left-radius: 10%;
+          border-bottom-right-radius: 10%; }
+          footer .ubicacion .redes .redes__iconos .redes__iconos--xp .redes__iconos--xp a {
+            color: white;
+            font-size: 18px; }
+            footer .ubicacion .redes .redes__iconos .redes__iconos--xp .redes__iconos--xp a .redes__iconos--xp:hover {
+              transform: translateY(-3px) scale(1.5); }
+  footer .roma {
+    display: flex;
+    justify-content: center; }
+
 * {
   padding: 0;
   margin: 0;
@@ -8,22 +46,189 @@ header {
   background-image: linear-gradient(black, grey); }
   header .nav-container {
     display: flex;
-    justify-content: space-between;
-    padding: .5rem; }
+    justify-content: space-between; }
     header .nav-container .logo {
-      width: 35px;
-      height: 35px; }
+      width: 40px;
+      height: 40px; }
     header .nav-container .menu {
       display: flex;
-      align-items: center; }
-      header .nav-container .menu ul li {
-        list-style-type: none; }
+      justify-items: end; }
+      header .nav-container .menu .menu-item {
+        float: left;
+        list-style: none; }
       header .nav-container .menu .menu-item a {
         color: white;
         font-weight: bold;
-        text-decoration: none;
-        padding: 8px 12px;
-        margin: 0 15px; }
-      header .nav-container .menu .menu-bar {
-        display: flex;
-        align-items: center; }
+        list-style: none;
+        padding: 2px 2px;
+        margin: 10px 10px; }
+
+.main-container {
+  height: 450px;
+  background-image: url(../assets/tailandiat.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .main-container .form-buscador {
+    border-radius: 20px; }
+    .main-container .form-buscador .buscador {
+      padding: 10px;
+      border-radius: 20px; }
+    .main-container .form-buscador .boton {
+      padding: 10px;
+      border-radius: 10px; }
+
+.containner {
+  height: 450px;
+  background-image: url(../assets/capadoccia.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  .containner .quienes {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: inherit;
+    animation-duration: 4s;
+    animation-name: aparecer;
+    transform: matrix(400px); }
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    color: black; }
+  to {
+    opacity: 1;
+    color: #232395; } }
+  .containner .somos {
+    font-weight: 400; }
+
+.contacto {
+  background-image: url(../assets/background.jpg); }
+  .contacto .titulos {
+    font-weight: 300;
+    padding-left: 50px;
+    padding-top: 20px;
+    color: white; }
+  .contacto .mb-3 {
+    margin-left: 50px;
+    margin-right: 50px; }
+
+.titulo1 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 4px;
+  padding: 4px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  animation-duration: 3s;
+  animation-name: aparecer;
+  transform: matrix(400px); }
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    color: black; }
+  to {
+    opacity: 1;
+    color: goldenrod; } }
+
+.promos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center; }
+  .promos .promos2 {
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    width: 350px; }
+    .promos .promos2 .imagen {
+      border-top-left-radius: 10%;
+      border-top-right-radius: 10%;
+      width: 100%;
+      cursor: pointer;
+      object-fit: cover;
+      border-bottom-left-radius: 10%;
+      border-bottom-right-radius: 10%; }
+      .promos .promos2 .imagen:hover {
+        transform: scale(1.2);
+        transition: transform 0.5s; }
+
+main {
+  background-image: url(../assets/ocean.jpg); }
+  main .tit1 {
+    display: flex;
+    justify-content: center; }
+  main .tit2 {
+    display: flex;
+    justify-content: center; }
+  main .paquetes {
+    background-color: #17121f;
+    border: 2px solid black;
+    border-radius: 50px; }
+    main .paquetes .tito {
+      display: flex;
+      justify-content: center;
+      color: #ebe7e7;
+      font-family: 'Ubuntu', sans-serif; }
+    main .paquetes .paq1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      gap: 15px;
+      padding-top: 1rem;
+      padding-left: 2rem;
+      padding-bottom: 20px; }
+    main .paquetes .card {
+      width: 250px;
+      height: 270px;
+      border-radius: 30px;
+      overflow: hidden;
+      box-shadow: 5px 5px 70px 5px #fbfafc; }
+      main .paquetes .card img {
+        width: 250px;
+        height: 200px; }
+  main .paquetes2 {
+    background-color: #6968b8;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-top: 20px; }
+    main .paquetes2 .tito2 {
+      display: flex;
+      justify-content: center;
+      color: #ebe7e7;
+      font-family: 'Ubuntu', sans-serif; }
+    main .paquetes2 .paq2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      gap: 15px;
+      padding-top: 1rem;
+      padding-left: 2rem;
+      padding-bottom: 20px; }
+    main .paquetes2 .card {
+      width: 250px;
+      height: 270px;
+      border-radius: 30px;
+      overflow: hidden;
+      box-shadow: 5px 15px 60px 15px #17121f; }
+      main .paquetes2 .card img {
+        width: 250px;
+        height: 200px; }
+      main .paquetes2 .card .card__text {
+        width: 100%;
+        height: 100%;
+        background: rgba(64, 66, 66, 0.5); }

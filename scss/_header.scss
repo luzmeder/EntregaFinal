@@ -5,34 +5,33 @@ header{
     .nav-container{
         display: flex;
         justify-content: space-between;
-        padding: .5rem;
 
         .logo{
-            width: 35px;
-            height: 35px;
+            width: 40px;
+            height: 40px;
         }
         .menu{
             display: flex;
-            align-items: center;
+            justify-items: end;
+
             
-            ul li{
-                list-style-type: none;
- 
-            }    
-            
+            .menu-item{
+                float:left;
+                list-style: none;
+
+            }
             .menu-item a{
                 color: white;
                 font-weight: bold;
-                text-decoration: none;
-                padding: 8px 12px;
-                margin: 0 15px;   
+                list-style: none;
+                padding: 2px 2px;
+                margin: 10px 10px; 
             }                           
 
         
-            .menu-bar { 
-                display: flex;
-                align-items: center;
-            }    
+        //     .menu-bar { 
+        //         display: none;
+        //     }    
         }
 
     }
