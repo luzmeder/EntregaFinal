@@ -35,19 +35,15 @@
 
 }
 
-.contacto{
+.contacto-container {
     background-image: url(../assets/background.jpg);
+}
 
+.contacto{
     .titulos{
         font-weight: 300;
         padding-left: 50px;
         padding-top: 20px;
         color: white;
-    }
-
-    .mb-3{
-        margin-left: 50px;
-        margin-right: 50px;
-
     }
 }

@@ -50,9 +50,9 @@ footer{
                     border-bottom-left-radius: 10%;
                     border-bottom-right-radius: 10%;
 
-                    .redes__iconos--xp a{
+                    a{
 
-                        color: white;
+                        color: white !important;
                         font-size: 18px;
                         // box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
                         // border-top-left-radius: 10%;
@@ -70,6 +70,12 @@ footer{
                     }
                 }
 
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+
             }
         }
     }
@@ -78,4 +84,4 @@ footer{
         display: flex;
         justify-content: center;
     }
-}     
+}
