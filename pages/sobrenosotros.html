@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta name="description" content="Viaja tranquilo es una agencia de viajes dedicada para que viajes con entera seguridad y no te preocupes por nada en destino. Conocenos un poco mas">
@@ -37,12 +40,14 @@
         </nav>
     </header>
     <div class="containner">
-    <h1 class="quienes">TE CONTAMOS QUIENES SOMOS</h1>
-    <p class="somos">Viaja Tranquilo es una agencia de viajes creada por millenials que se ocupa de todo lo que necesitas para que tengas un viaje tranquilo. Con nosotros tenes la seguridad que podras contactarnos en cada lugar o destino al que viajes y contas con nosotros ante cualquier inquietud o problema. Sabemos que muchas veces es complicado la comunicacion en lugares donde el idioma no distinto. Nuestro objetivo principal es que no tengas probleas durante el viaje, pero que si lo hubiera, te garantizamos la resolucion de cualquier iconveniente. Por eso, con nosotros, Viajas tranquilo.</p>
+        <div class="container-fluid m-0 p-5 w-75 mx-auto">
+            <h1 class="quienes">TE CONTAMOS QUIENES SOMOS</h1>
+            <p class="somos">Viaja Tranquilo es una agencia de viajes creada por millenials que se ocupa de todo lo que necesitas para que tengas un viaje tranquilo. Con nosotros tenes la seguridad que podras contactarnos en cada lugar o destino al que viajes y contas con nosotros ante cualquier inquietud o problema. Sabemos que muchas veces es complicado la comunicacion en lugares donde el idioma no distinto. Nuestro objetivo principal es que no tengas probleas durante el viaje, pero que si lo hubiera, te garantizamos la resolucion de cualquier iconveniente. Por eso, con nosotros, Viajas tranquilo.</p>
+        </div>
     </div>
     <footer> 
         <article class="ubicacion">
-            <div class="maps">
+            <div style="padding: 1rem" class="maps">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.1229508166516!2d-57.97309418518348!3d-34.92845328225856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e7d0e5efe2d5%3A0x8c4d9aba7fbc1a8a!2sAIE%2C%20C.%2046%201465%2C%20B1900%20La%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1647896018329!5m2!1ses!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div>
@@ -54,7 +59,22 @@
                     </ul>
                 </p>
             </div>     
-            <article class="redes">
+            <form style="padding: 1rem">
+                <h3>NEWSLETTER</h3>
+                <div class="my-2">
+                    <input type="text" class="form-control" id="name" placeholder="Nombre y Apellido">
+                </div>
+                <div class="my-2">
+                    <input type="text" class="form-control" id="destino" placeholder="Donde vivis, ciudad">
+                </div>
+                <div class="my-2 input-group">
+                    <input type="text" class="form-control"placeholder="Dejanos tu Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                </div>
+                <div class="mb-3">
+                    <button class="boton" type="submit" id="btn-enviar-news">Suscribite</button>
+                </div>
+            </form>    
+            <article style="padding: 1rem" class="redes">
                 <div class="redes__texto">
                 <p>Seguinos por:</p>
                 </div>
@@ -69,9 +89,21 @@
                     <li class="redes__iconos--xp">
                         <a href="https://instagram.com"><i class="fa-brands fa-instagram-square"></i></a>
                     </li>
+                    <li class="redes__iconos--xp">
+                        <a href="http://bit.ly/LuzMeder"><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
                 </ul>
                 </div>
-            </article>  
+            </article> 
+            <div style="padding: 1rem">
+                <p class="horarios"><i class="fa-solid fa-clock"></i>  Horarios de Atencion:
+                    <ul>
+                        <li>Lunes a viernes de 10hs a 18hs</li>
+                        <li>Sabados y domingos de 9hs a 12hs</li>
+                        <li>Feriados solo telefono de guardia</li>
+                    </ul>
+                </p>
+            </div>  
         </article>      
         <div class="roma">
             <p>Comunicate con nosotros a Ventas@Viajatranquilo.com o al telefono 2216417547</p>
@@ -82,7 +114,7 @@
         <div class="container-fluid d-flex justify-content-center">
             <p><img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/24/000000/external-heart-basic-ui-elements-flatart-icons-outline-flatarticons.png"/>Copyright 2022</p>
         </div>
-    </footer>
+    </footer>  
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
